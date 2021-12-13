@@ -5,7 +5,7 @@ Demo of 'Maven multi module' project WITH unit- and/or integration testing with 
 # Results
 
    * Project copmlete Jacoco datafile : project-base / target / aggregate-exec / aggregate.exec
-   * Project complete Jacoco report   ; project-base / test-reporting / site / index.html
+   * Project complete Jacoco report   ; project-base / test-reporting / target / site / jacoco-aggregate / index.html
    * FindBugs report
    
 # Run
@@ -16,3 +16,13 @@ Demo of 'Maven multi module' project WITH unit- and/or integration testing with 
    
 # Overview: 
 <img src="TestResults.png" alt="Overview of the results"/>)
+
+# Branches: 
+
+There are a few alternatives (in branches) available: 
+
+  * Behavior as shown above
+  * Multi module with only unit tests (with the Surefire plugin in the root pom.xml)
+  * Multi module with only unit tests with the Surefire plugin in the pom.xml of each module
+
+In all cases, the result is available 
